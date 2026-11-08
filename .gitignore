@@ -9,3 +9,6 @@ next-env.d.ts
 # 공공데이터 API 캐시 (앱 실행 시 자동 재수집)
 data/prices/
 data/dividends/
+
+# oh-my-claudecode 작업 상태
+.omc/
