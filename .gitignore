@@ -1,0 +1,11 @@
+node_modules
+.next
+out
+*.tsbuildinfo
+next-env.d.ts
+.env*.local
+.playwright-mcp
+
+# 공공데이터 API 캐시 (앱 실행 시 자동 재수집)
+data/prices/
+data/dividends/

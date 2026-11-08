@@ -1,0 +1,57 @@
+[
+  {
+    "srtnCd": "005930",
+    "isinCd": "KR7005930003",
+    "itmsNm": "삼성전자",
+    "mrktCtg": "KOSPI",
+    "group": "반도체",
+    "memo": "HBM 수혜 기대. 20만원 지지 여부 확인",
+    "targetPrice": 250000,
+    "createdAt": "2026-11-07T19:09:34.269Z",
+    "updatedAt": "2026-11-07T19:09:59.835Z"
+  },
+  {
+    "srtnCd": "000660",
+    "isinCd": "KR7000660001",
+    "itmsNm": "SK하이닉스",
+    "mrktCtg": "KOSPI",
+    "group": "반도체",
+    "memo": "",
+    "targetPrice": null,
+    "createdAt": "2026-11-07T19:09:59.879Z",
+    "updatedAt": "2026-11-07T19:09:59.879Z"
+  },
+  {
+    "srtnCd": "035420",
+    "isinCd": "KR7035420009",
+    "itmsNm": "NAVER",
+    "mrktCtg": "KOSPI",
+    "group": "",
+    "memo": "",
+    "targetPrice": null,
+    "createdAt": "2026-11-07T19:10:10.590Z",
+    "updatedAt": "2026-11-07T19:10:10.590Z"
+  },
+  {
+    "srtnCd": "047050",
+    "isinCd": "KR7047050000",
+    "itmsNm": "포스코인터내셔널",
+    "mrktCtg": "KOSPI",
+    "group": "",
+    "memo": "",
+    "targetPrice": null,
+    "createdAt": "2026-11-08T09:10:00.748Z",
+    "updatedAt": "2026-11-08T09:10:00.748Z"
+  },
+  {
+    "srtnCd": "022100",
+    "isinCd": "KR7022100002",
+    "itmsNm": "포스코DX",
+    "mrktCtg": "KOSPI",
+    "group": "",
+    "memo": "",
+    "targetPrice": null,
+    "createdAt": "2026-11-08T09:10:03.035Z",
+    "updatedAt": "2026-11-08T09:10:03.035Z"
+  }
+]
