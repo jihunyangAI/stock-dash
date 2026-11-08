@@ -10,7 +10,10 @@ export async function GET() {
   const list = await getWatchlist();
   const rows: WatchRow[] = await Promise.all(
     list.map(async (w) => {
-      const last = (await getPriceDoc(w.srtnCd))?.items.at(-1);
+      let doc = await getPriceDoc(w.srtnCd);
+      // 시세 캐시가 없으면(배포 환경 첫 접속 등) 바로 수집해 목록에 종가가 보이도록 함
+      if (!doc) doc = await syncPrices(w.srtnCd).catch(() => null);
+      const last = doc?.items.at(-1);
       return {
         ...w,
         quote: last
