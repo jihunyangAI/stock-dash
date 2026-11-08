@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@upstash/redis": "^1.41.0",
     "lightweight-charts": "^5.2.1",
     "next": "^15.5.29",
     "react": "^19.3.1",
